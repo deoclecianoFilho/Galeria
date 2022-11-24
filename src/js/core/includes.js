@@ -20,7 +20,7 @@ function loadIncludes(parent) {
 
                 loadHtmlSuccessCallbacks.forEach(
                     callback => callback(data))
-                loadIncludes(e)
+                loadIncludes(e) 
             }
         })
     })
